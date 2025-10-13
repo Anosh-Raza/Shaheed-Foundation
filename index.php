@@ -71,39 +71,39 @@ include "includes/header.php";
 
     <div class="video-grid">
       <!-- Video 1 -->
-      <a href="https://www.youtube.com/watch?v=VIDEO_ID_1" target="_blank" class="video-item">
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="video-item">
         <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/NsTiNkEkepw/hqdefault.jpg" alt="Mental Health | Dr. Erica Richards">
+          <img src="https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Mental Health Awareness">
           <div class="overlay">
             <i class="fa-brands fa-youtube"></i>
             <span>Watch on YouTube</span>
           </div>
         </div>
-        <h4>Mental Health | Dr. Erica Richards</h4>
+        <h4>Mental Health Awareness</h4>
       </a>
 
       <!-- Video 2 -->
-      <a href="https://www.youtube.com/watch?v=VIDEO_ID_2" target="_blank" class="video-item">
+      <a href="https://www.youtube.com/watch?v=9bZkp7q19f0" target="_blank" class="video-item">
         <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/NsTiNkEkepw/hqdefault.jpg" alt="Prostate Cancer | Dr. Curtiland Deville">
+          <img src="https://i.ytimg.com/vi/9bZkp7q19f0/hqdefault.jpg" alt="Healthy Living Tips">
           <div class="overlay">
             <i class="fa-brands fa-youtube"></i>
             <span>Watch on YouTube</span>
           </div>
         </div>
-        <h4>Prostate Cancer | Dr. Curtiland Deville</h4>
+        <h4>Healthy Living Tips</h4>
       </a>
 
       <!-- Video 3 -->
-      <a href="https://www.youtube.com/watch?v=VIDEO_ID_3" target="_blank" class="video-item">
+      <a href="https://www.youtube.com/watch?v=YQHsXMglC9A" target="_blank" class="video-item">
         <div class="thumbnail">
-          <img src="https://i.ytimg.com/vi/NsTiNkEkepw/hqdefault.jpg" alt="Living With Dementia | Sharon Sellers">
+          <img src="https://i.ytimg.com/vi/YQHsXMglC9A/hqdefault.jpg" alt="Exercise for Health">
           <div class="overlay">
             <i class="fa-brands fa-youtube"></i>
             <span>Watch on YouTube</span>
           </div>
         </div>
-        <h4>Living With Dementia | Sharon Sellers</h4>
+        <h4>Exercise for Health</h4>
       </a>
     </div>
   </div>

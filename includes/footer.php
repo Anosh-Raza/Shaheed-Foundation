@@ -6,11 +6,11 @@
       <div class="footer-col">
         <h3 class="footer-title">For Health Professionals</h3>
         <ul class="footer-links">
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Shaheed Foundation</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">Annual Reports & Newsletters</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="contact.php">Careers</a></li>
+          <li><a href="about.php">Shaheed Foundation</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="blog/index.php">Annual Reports & Newsletters</a></li>
+          <li><a href="about.php">About Us</a></li>
         </ul>
       </div>
 
@@ -18,14 +18,14 @@
       <div class="footer-col">
         <h3 class="footer-title">For Hospital Visitors</h3>
         <ul class="footer-links">
-          <li><a href="#">Doctors</a></li>
-          <li><a href="#">Our Specialties</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Teleclinics</a></li>
-          <li><a href="#">Clinical Laboratory</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Patient’s Rights</a></li>
-          <li><a href="#">Feedback</a></li>
+          <li><a href="services.php">Doctors</a></li>
+          <li><a href="services.php">Our Specialties</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="contact.php">Teleclinics</a></li>
+          <li><a href="services.php">Clinical Laboratory</a></li>
+          <li><a href="blog/index.php">Blog</a></li>
+          <li><a href="about.php">Patient's Rights</a></li>
+          <li><a href="contact.php">Feedback</a></li>
         </ul>
       </div>
 
@@ -45,9 +45,9 @@
         </p>
 
         <div class="social-icons">
-          <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://facebook.com/shaheedfoundationhospital" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com/shaheedfoundationhospital" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://youtube.com/@shaheedfoundationhospital" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
       </div>
 
