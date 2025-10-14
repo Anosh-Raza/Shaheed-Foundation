@@ -69,5 +69,18 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
 <script src="assets/js/main.js"></script>
+
+<script>
+window.addEventListener("scroll", function () {
+  const header = document.querySelector(".site-header");
+  if (window.scrollY > 50) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
+</script>
+
+
 </body>
 </html>

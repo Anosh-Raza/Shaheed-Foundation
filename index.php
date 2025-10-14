@@ -17,7 +17,7 @@ include "includes/header.php";
     </div>
 
     <div class="slide">
-      <img src="assets/images/home-slider-pakistan.jpeg" alt="Doctors Team">
+      <img src="assets/images/home-slider-1.jpg" alt="Doctors Team">
       <div class="slide-content">
         <h1>Our Expert Medical Team</h1>
         <p>Dedicated doctors and specialists serving the community.</p>

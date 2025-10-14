@@ -76,3 +76,14 @@ document.querySelectorAll('.mobile-nav a').forEach(link => {
     mobileNav.classList.remove('active');
   });
 });
+
+// Mobile dropdown functionality
+const mobileDropdown = document.querySelector('.mobile-dropdown');
+if (mobileDropdown) {
+  const mobileDropdownLink = mobileDropdown.querySelector('a');
+  
+  mobileDropdownLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    mobileDropdown.classList.toggle('active');
+  });
+}
