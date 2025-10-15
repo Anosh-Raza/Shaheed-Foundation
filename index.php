@@ -298,7 +298,7 @@ include "includes/header.php";
 .testimonial-slider {
   position: relative;
   width: 100%;
-  overflow: visible;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;

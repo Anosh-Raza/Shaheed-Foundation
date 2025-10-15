@@ -1,7 +1,9 @@
 <?php 
+$is_subpage = true;
 $page_title = "Gastroenterology - Shaheed Foundation Hospital";
-include ('../includes/header.php'); 
+include '../includes/header.php';
 ?>
+
 
 <!-- Service Page: Gastroenterology -->
 <section class="service-hero">
