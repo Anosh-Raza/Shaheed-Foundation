@@ -22,13 +22,13 @@ include "includes/header.php";
       </p>
     </div>
     <div class="about-image">
-      <img src="assets/images/hospital-building.jpg" alt="Hospital Building" />
+      <img src="assets/images/hospital-image.jpeg" alt="Shaheed Foundation Hospital" />
     </div>
   </div>
 </section>
 
 <section class="about-info">
-  <div class="info-cards">
+  <div class="info-cards container">
     <div class="info-card">
       <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
       <p>Located in the heart of the city, easily accessible from all areas.</p>

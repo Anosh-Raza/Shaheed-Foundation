@@ -1,16 +1,16 @@
 <?php 
 $is_subpage = true;
-$page_title = "Gastroenterology - Shaheed Foundation Hospital";
+$page_title = "ENT - Shaheed Foundation Hospital";
 // include($_SERVER['DOCUMENT_ROOT'] . '/shaheed/includes/header.php');
 include(__DIR__ . '/../includes/header.php');
 ?>
 
 
-<!-- Service Page: Gastroenterology -->
+<!-- Service Page: ENT -->
 <section class="service-hero">
-  <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=400&fit=crop" alt="Gastroenterology" class="hero-bg">
+  <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=400&fit=crop" alt="ENT" class="hero-bg">
   <div class="hero-overlay">
-    <h1>Gastroenterology</h1>
+    <h1>ENT</h1>
     <p>Comprehensive care for digestive health and wellness.</p>
   </div>
 </section>
@@ -18,12 +18,12 @@ include(__DIR__ . '/../includes/header.php');
 <section class="service-detail-section">
   <div class="container">
     <div class="breadcrumb">
-      <a href="../index.php">Home</a> » <a href="../services.php">Services</a> » <span>Gastroenterology</span>
+      <a href="../index.php">Home</a> » <a href="../services.php">Services</a> » <span>ENT</span>
     </div>
 
     <div class="service-content">
       <div class="service-text">
-        <h2>GASTROENTEROLOGY</h2>
+        <h2>ENT</h2>
         <p>
           With experienced physicians and leading-edge diagnostic technology, we have helped numerous patients in our community overcome digestive problems and lead healthier lives.
           Shaheed Memorial Hospital offers a state-of-the-art endoscopy suite dedicated to providing quality and optimal patient care.
@@ -44,7 +44,7 @@ include(__DIR__ . '/../includes/header.php');
       </div>
 
       <div class="service-image">
-        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=400&fit=crop" alt="Gastroenterology Service">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=400&fit=crop" alt="ENT Service">
       </div>
     </div>
   </div>
