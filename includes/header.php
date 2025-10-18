@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?= $page_title ?? "Shaheed Foundation Hospital" ?></title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <?php
   // Automatically detect base URL for localhost or live
@@ -43,7 +45,9 @@ $base_url = $is_local
             </div>
 
             <div class="announcement-right">
-                <a href="https://www.google.com/maps/place/Shaheed+Foundation+Pakistan/@24.945846,67.080188,15z/data=!4m6!3m5!1s0x3eb33f5843d6f82b:0xad7487d793da34a5!8m2!3d24.9458458!4d67.0801884!16s%2Fg%2F1twyx__n?hl=en&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot"></i> Find our location</a>
+                <a
+                    href="https://www.google.com/maps/place/Shaheed+Foundation+Pakistan/@24.945846,67.080188,15z/data=!4m6!3m5!1s0x3eb33f5843d6f82b:0xad7487d793da34a5!8m2!3d24.9458458!4d67.0801884!16s%2Fg%2F1twyx__n?hl=en&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"><i
+                        class="fa-solid fa-location-dot"></i> Find our location</a>
                 <div class="social-icons" style="margin-top: 0;">
                     <a href="https://www.facebook.com/alshaheedhosp"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/alshaheedhosp"><i class="fa-brands fa-instagram"></i></a>
@@ -136,52 +140,51 @@ $base_url = $is_local
             header.classList.remove("sticky");
         }
     });
+    </script>
 
-  </script>
+    <!-- Mobile Menu + Dropdown JS -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector(".hamburger");
+        const mobileNav = document.querySelector(".mobile-nav");
+        const openIcon = document.querySelector(".open-icon");
+        const closeIcon = document.querySelector(".close-icon");
 
- <!-- Mobile Menu + Dropdown JS -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const hamburger = document.querySelector(".hamburger");
-      const mobileNav = document.querySelector(".mobile-nav");
-      const openIcon = document.querySelector(".open-icon");
-      const closeIcon = document.querySelector(".close-icon");
-
-      // Toggle mobile menu
-      hamburger.addEventListener("click", function () {
-        mobileNav.classList.toggle("active");
-        const isActive = mobileNav.classList.contains("active");
-        openIcon.style.display = isActive ? "none" : "inline-block";
-        closeIcon.style.display = isActive ? "inline-block" : "none";
-      });
-
-      // Close when clicking a link
-      mobileNav.querySelectorAll("a").forEach(link => {
-        link.addEventListener("click", () => {
-          mobileNav.classList.remove("active");
-          openIcon.style.display = "inline-block";
-          closeIcon.style.display = "none";
+        // Toggle mobile menu
+        hamburger.addEventListener("click", function() {
+            mobileNav.classList.toggle("active");
+            const isActive = mobileNav.classList.contains("active");
+            openIcon.style.display = isActive ? "none" : "inline-block";
+            closeIcon.style.display = isActive ? "inline-block" : "none";
         });
-      });
 
-      // Handle mobile dropdown toggle
-      const dropdowns = document.querySelectorAll(".mobile-dropdown");
-      dropdowns.forEach(drop => {
-        const toggle = drop.querySelector(".mobile-dropdown-toggle");
-        const submenu = drop.querySelector(".mobile-submenu");
-        if (!toggle || !submenu) return;
-
-        toggle.addEventListener("click", function (e) {
-          if (window.innerWidth <= 992) {
-            e.preventDefault();
-            e.stopPropagation();
-            drop.classList.toggle("open");
-            submenu.classList.toggle("open");
-          }
+        // Close when clicking a link
+        mobileNav.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                mobileNav.classList.remove("active");
+                openIcon.style.display = "inline-block";
+                closeIcon.style.display = "none";
+            });
         });
-      });
+
+        // Handle mobile dropdown toggle
+        const dropdowns = document.querySelectorAll(".mobile-dropdown");
+        dropdowns.forEach(drop => {
+            const toggle = drop.querySelector(".mobile-dropdown-toggle");
+            const submenu = drop.querySelector(".mobile-submenu");
+            if (!toggle || !submenu) return;
+
+            toggle.addEventListener("click", function(e) {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    drop.classList.toggle("open");
+                    submenu.classList.toggle("open");
+                }
+            });
+        });
     });
-  </script>
+    </script>
 
 </body>
 
