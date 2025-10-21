@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Blog - Shaheed Foundation Hospital";
+$page_title = "Blog - Al Shaheed Hospital ";
 include "../includes/header.php"; 
 ?>
 

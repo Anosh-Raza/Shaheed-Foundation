@@ -1,6 +1,6 @@
 <?php 
 $is_subpage = true;
-$page_title = "General OPD - Shaheed Foundation Hospital";
+$page_title = "General OPD - Al Shaheed Hospital ";
 // include($_SERVER['DOCUMENT_ROOT'] . '/shaheed/includes/header.php');
 include(__DIR__ . '/../includes/header.php');
 ?>

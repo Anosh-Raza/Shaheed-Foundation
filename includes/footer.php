@@ -65,7 +65,7 @@
       </div>
 
       <div class="footer-bottom">
-        <p>© 2025 Shaheed Foundation Hospital. All Rights Reserved.</p>
+        <p>© 2025 Al Shaheed Hospital . All Rights Reserved.</p>
       </div>
     </div>
   </footer>

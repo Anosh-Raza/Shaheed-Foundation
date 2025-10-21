@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Home - Shaheed Foundation Hospital";
+$page_title = "Home - Al Shaheed Hospital ";
 include "includes/header.php"; 
 ?>
 
@@ -10,7 +10,7 @@ include "includes/header.php";
         <div class="slide active">
             <img src="assets/images/banner1.jpeg" alt="Hospital Front View">
             <div class="slide-content">
-                <h1>Welcome to Shaheed Foundation Hospital</h1>
+                <h1>Welcome to Al Shaheed Hospital </h1>
                 <p>Providing affordable healthcare with compassion and dignity.</p>
                 <a href="about.php" class="btn-hero">Learn More</a>
             </div>
@@ -37,13 +37,44 @@ include "includes/header.php";
     <div class="slider-dots"></div>
 </section>
 
+<!-- Youtube Video Section -->
+<section class="yt-video-section">
+  <div class="yt-container">
+    <div class="yt-video-content">
+      <div class="yt-video-text">
+        <h2>Our Journey to Healing Lives</h2>
+        <p>
+          At Al Shaheed Hospital , we are dedicated to providing compassionate healthcare with modern
+          technology and a human touch.
+          Watch our story to learn more about our mission and the people who make it possible.
+        </p>
+      </div>
+
+      <div class="yt-video-frame">
+        <div class="yt-video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/LyJUfSZLNtA?autoplay=1&mute=1&loop=1&playlist=LyJUfSZLNtA&controls=1&modestbranding=1&rel=0"
+            title="Al Shaheed Hospital  Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Youtube Video Section End-->
+
 <!-- Info Section -->
 <section class="info-section">
     <div class="container">
         <h5 class="subheading">Our Mission</h5>
         <h2 class="main-heading">Delivering Compassionate Healthcare to Everyone</h2>
         <p class="section-text">
-            Shaheed Foundation Hospital is dedicated to providing affordable and accessible medical
+            Al Shaheed Hospital  is dedicated to providing affordable and accessible medical
             care to all individuals in need. Our mission is to bridge the healthcare gap in underserved
             communities by offering modern facilities, professional expertise, and a compassionate
             approach. Every patient matters — and every life counts.
@@ -70,7 +101,7 @@ include "includes/header.php";
         <div class="content-column">
             <h2 class="section-heading">Dedicated to Exceptional Healthcare</h2>
             <p class="section-description">
-                At Shaheed Foundation Hospital, we’re committed to providing advanced healthcare
+                At Al Shaheed Hospital , we’re committed to providing advanced healthcare
                 services with compassion and expertise. Our facilities are equipped with modern
                 technology and a team of experienced medical professionals ready to care for you.
             </p>
@@ -97,8 +128,10 @@ include "includes/header.php";
                 <div class="thumbnail">
                     <img alt="Mental Health Awareness">
                     <div class="overlay">
-                        <i class="fa-brands fa-youtube"></i>
-                        <span>Watch on YouTube</span>
+                        <div class="youtube-button">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Watch on YouTube</span>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -109,8 +142,10 @@ include "includes/header.php";
                 <div class="thumbnail">
                     <img alt="Healthy Living Tips">
                     <div class="overlay">
-                        <i class="fa-brands fa-youtube"></i>
-                        <span>Watch on YouTube</span>
+                        <div class="youtube-button">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Watch on YouTube</span>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -121,8 +156,10 @@ include "includes/header.php";
                 <div class="thumbnail">
                     <img alt="Exercise for Health">
                     <div class="overlay">
-                        <i class="fa-brands fa-youtube"></i>
-                        <span>Watch on YouTube</span>
+                        <div class="youtube-button">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Watch on YouTube</span>
+                        </div>
                     </div>
                 </div>
             </a>
@@ -139,151 +176,6 @@ document.querySelectorAll('.video-item').forEach(item => {
 });
 </script>
 
-<section class="video-section">
-  <div class="container">
-    <div class="video-content">
-      <div class="video-text">
-        <h2>Our Journey to Healing Lives</h2>
-        <p>
-          At Shaheed Foundation Hospital, we are dedicated to providing compassionate healthcare with modern technology and a human touch. 
-          Watch our story to learn more about our mission and the people who make it possible.
-        </p>
-      </div>
-
-      <div class="video-frame">
-        <div class="video-wrapper">
-          <iframe 
-            src="https://www.youtube.com/embed/LyJUfSZLNtA?si=xXT6IhHIBMQZncj_" 
-            title="Shaheed Foundation Hospital Video" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<style>
-/* =======================================
-   VIDEO SECTION
-   ======================================= */
-
-.video-section {
-  background: var(--light);
-  padding: 80px 20px;
-}
-
-.video-section .container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: visible;
-}
-
-.video-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.video-text {
-  flex: 1 1 45%;
-  min-width: 300px;
-}
-
-.video-text h2 {
-  font-size: 2.2rem;
-  color: var(--primary-color);
-  font-weight: 700;
-  margin-bottom: 20px;
-  line-height: 1.3;
-}
-
-.video-text p {
-  color: #444;
-  font-size: 1rem;
-  line-height: 1.8;
-  margin-bottom: 25px;
-}
-
-.video-frame {
-  flex: 1 1 50%;
-  position: relative;
-  min-width: 300px;
-}
-
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 ratio */
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  border: 4px solid var(--primary-color);
-  transition: box-shadow 0.3s ease;
-}
-
-.video-wrapper iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-/* Hover Glow Effect */
-.video-wrapper:hover {
-  box-shadow: 0 10px 30px rgba(237, 27, 36, 0.25);
-}
-
-/* =======================
-   Responsive
-   ======================= */
-@media (max-width: 1024px) {
-  .video-content {
-    flex-direction: column-reverse !important;
-    align-items: center;
-    text-align: center;
-  }
-
-  .video-text {
-    flex: 1 1 100%;
-    max-width: 700px;
-  }
-
-  .video-frame {
-    flex: 1 1 100%;
-    max-width: 700px;
-  }
-
-  .video-text h2 {
-    font-size: 1.8rem;
-  }
-
-  .video-wrapper {
-    border-width: 3px;
-  }
-}
-
-@media (max-width: 600px) {
-  .video-section {
-    padding: 50px 15px;
-  }
-
-  .video-text h2 {
-    font-size: 1.6rem;
-  }
-
-  .video-text p {
-    font-size: 0.95rem;
-  }
-}
-</style>
 
 
 <!-- Spedicalities Section -->
@@ -301,32 +193,32 @@ document.querySelectorAll('.video-item').forEach(item => {
 
             <div class="specialty-box">
                 <a href="services/orthopedic.php">
-                <img src="assets/images/orthopedic.png" alt="General Surgery">
-                <p>Orthopedic</p>
+                    <img src="assets/images/orthopedic.png" alt="General Surgery">
+                    <p>Orthopedic</p>
                 </a>
             </div>
             <div class="specialty-box">
                 <a href="services/opd.php">
-                <img src="assets/images/OPD.png" alt="ENT">
-                <p>OPD</p>
+                    <img src="assets/images/OPD.png" alt="ENT">
+                    <p>OPD</p>
                 </a>
             </div>
             <div class="specialty-box">
                 <a href="services/general-opd.php">
-                <img src="assets/images/general_opd.png" alt="Nephrology">
-                <p>General OPD</p>
+                    <img src="assets/images/general_opd.png" alt="Nephrology">
+                    <p>General OPD</p>
                 </a>
             </div>
             <div class="specialty-box">
                 <a href="services/ent.php">
-                <img src="assets/images/ent.png" alt="Dentistry">
-                <p>END</p>
+                    <img src="assets/images/ent.png" alt="Dentistry">
+                    <p>END</p>
                 </a>
             </div>
             <div class="specialty-box">
                 <a href="services/endocrinologist.php">
-                <img src="assets/images/endocrinologist.png" alt="Internal Medicine">
-                <p>Endocrinologist</p>
+                    <img src="assets/images/endocrinologist.png" alt="Internal Medicine">
+                    <p>Endocrinologist</p>
                 </a>
             </div>
         </div>
@@ -389,35 +281,35 @@ document.querySelectorAll('.video-item').forEach(item => {
 
 
 
-<!--Newsletter Donater Section-->
+<!-- Newsletter Donate Section -->
 <section class="newsletter-donate">
-    <div class="container">
-        <div class="content-wrapper">
-            <!-- Left Content -->
-            <div class="newsletter-content">
-                <h2 class="heading">Stay Connected With Us</h2>
-                <p class="text">
-                    Subscribe to our newsletter and receive updates about our medical programs,
-                    health awareness events, and community initiatives.
-                </p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" required>
-                    <button type="submit" class="btn-subscribe">Subscribe</button>
-                </form>
-            </div>
+  <div class="container">
+    <div class="content-wrapper">
+      <!-- Left Content -->
+      <div class="newsletter-content">
+        <h2 class="heading">Stay Connected With Us</h2>
+        <p class="text">
+          Subscribe to our newsletter and receive updates about our medical programs,
+          health awareness events, and community initiatives.
+        </p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit" class="btn-subscribe">Subscribe</button>
+        </form>
+      </div>
 
-            <!-- Right Content -->
-            <div class="donate-box">
-                <h3>Your Support Makes a Difference</h3>
-                <p>
-                    Every donation helps us improve healthcare facilities and serve those in need.
-                </p>
-                <a href="donate.php" class="news btn-donate">Donate Now</a>
-            </div>
-        </div>
+      <!-- Right Content -->
+      <div class="donate-box">
+        <h3>Your Support Makes a Difference</h3>
+        <p>
+          Every donation helps us improve healthcare facilities and serve those in need.
+        </p>
+        <a href="donate.php" class="news btn-donate">Donate Now</a>
+      </div>
     </div>
+  </div>
 </section>
-<!--Newsletter Donater Section End-->
+<!-- Newsletter Donate Section End -->
 
 
 <?php include "includes/footer.php"; ?>

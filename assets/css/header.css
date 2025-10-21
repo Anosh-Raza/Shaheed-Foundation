@@ -2,8 +2,10 @@
    Global Vars
 =========================== */
 :root {
-  --primary-color: #ed1b24;   /* Orange */
-  --dark-color: #343a40;      /* Dark grey */
+  --primary-color: #ed1b24;
+  /* Orange */
+  --dark-color: #343a40;
+  /* Dark grey */
   --black: #000000;
   --white: #ffffff;
   --font-family: 'Montserrat', sans-serif;
@@ -17,7 +19,7 @@
   border-bottom: 1px solid #eee;
   position: relative;
   z-index: 1000;
-   position: relative;
+  position: relative;
   width: 100%;
   top: 0;
   transition: all 0.3s ease;
@@ -29,8 +31,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.8); /* Slight transparent background */
-  backdrop-filter: blur(10px); /* Glassy effect */
+  background: rgba(255, 255, 255, 0.8);
+  /* Slight transparent background */
+  backdrop-filter: blur(10px);
+  /* Glassy effect */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,6 +78,7 @@
   transition: all 0.3s ease;
   font-weight: 500;
 }
+
 .main-nav ul li a:hover {
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
@@ -82,7 +87,7 @@
 /* ===========================
    Dropdown
 =========================== */
-.main-nav .has-dropdown > .dropdown {
+.main-nav .has-dropdown>.dropdown {
   display: none;
   position: absolute;
   top: 120%;
@@ -102,19 +107,20 @@
 }
 
 /* Carrot Arrow */
-.main-nav .has-dropdown > .dropdown::before {
+.main-nav .has-dropdown>.dropdown::before {
   content: "";
   position: absolute;
   top: -8px;
-  left: 24px; /* adjust to align under parent */
+  left: 24px;
+  /* adjust to align under parent */
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-bottom: 8px solid var(--primary-color);
 }
 
 /* Show Dropdown */
-.main-nav .has-dropdown:hover > .dropdown,
-.main-nav .has-dropdown:focus-within > .dropdown {
+.main-nav .has-dropdown:hover>.dropdown,
+.main-nav .has-dropdown:focus-within>.dropdown {
   display: block;
   visibility: visible;
   opacity: 1;
@@ -126,6 +132,7 @@
 .dropdown li {
   margin: 0;
 }
+
 .dropdown li a {
   display: block;
   padding: 10px 16px;
@@ -134,6 +141,7 @@
   text-decoration: none;
   transition: all 0.1s ease;
 }
+
 .dropdown li a:hover {
   background: var(--light);
   color: var(--primary-color);
@@ -152,9 +160,10 @@
   transition: all 0.3s ease;
   font-weight: 600;
   display: inline-block;
-      box-shadow: 5px 5px 1px 0 var(--secondary-color);
-    border: 2px solid white;
+  box-shadow: 5px 5px 1px 0 var(--secondary-color);
+  border: 2px solid white;
 }
+
 .btn-donate:hover {
   background: var(--white);
   color: var(--primary-color);
@@ -167,10 +176,10 @@
   display: block;
   margin: 0;
   font-size: 1.5rem;
-  padding: 12px 28px;
-  width: 50%;
+  padding: 10px 12px;
+  width: 40%;
   text-align: center;
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
   color: var(--white);
 }
 
@@ -184,9 +193,18 @@
   color: var(--primary-color);
   z-index: 9999;
 }
-.hamburger .close-icon { display: none; }
-.hamburger.active .open-icon { display: none; }
-.hamburger.active .close-icon { display: inline; }
+
+.hamburger .close-icon {
+  display: none;
+}
+
+.hamburger.active .open-icon {
+  display: none;
+}
+
+.hamburger.active .close-icon {
+  display: inline;
+}
 
 /* ===========================
    Mobile Nav
@@ -210,22 +228,26 @@
   display: block;
 }
 
-.mobile-nav.active { 
-  left: 0; 
+.mobile-nav.active {
+  left: 0;
 }
 
 /* Optional caret rotate */
-.mobile-dropdown.open > a i {
+.mobile-dropdown.open>a i {
   transform: rotate(180deg);
   transition: transform 0.25s ease;
 }
+
 .mobile-nav ul {
   list-style: none;
   text-align: left;
   margin: 0;
   padding: 0;
 }
-.mobile-nav ul li { margin: 30px 0; }
+
+.mobile-nav ul li {
+  margin: 20px 0;
+}
 
 .mobile-nav ul li a {
   color: var(--dark-color);
@@ -233,7 +255,11 @@
   font-family: var(--font-family);
   text-decoration: none;
   transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
 }
+
 .mobile-nav ul li a:hover {
   color: var(--primary-color);
 }
@@ -272,13 +298,16 @@
    Responsive
 =========================== */
 @media (max-width: 992px) {
+
   .main-nav,
-  .donate-btn { 
-    display: none !important; 
+  .donate-btn {
+    display: none !important;
   }
-  .hamburger { 
-    display: block !important; 
+
+  .hamburger {
+    display: block !important;
   }
+
   .header-grid {
     grid-template-columns: 1fr auto auto;
   }
@@ -289,5 +318,3 @@
     max-height: 60px;
   }
 }
-
-

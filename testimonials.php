@@ -14,7 +14,7 @@
                     <div class="testimonial-content">
                         <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Client 1" class="client-img">
                         <p class="testimonial-text">
-                            “Shaheed Foundation Hospital gave me a new life. The doctors were kind, and the staff made
+                            “Al Shaheed Hospital  gave me a new life. The doctors were kind, and the staff made
                             sure I was comfortable throughout my treatment. I truly felt cared for.”
                         </p>
                         <h4 class="client-name">Nadia Ahmed</h4>

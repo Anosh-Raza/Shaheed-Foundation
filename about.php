@@ -1,5 +1,5 @@
 <?php 
-$page_title = "About - Shaheed Foundation Hospital";
+$page_title = "About - Al Shaheed Hospital Hospital";
 include "includes/header.php"; 
 ?>
 
@@ -12,7 +12,7 @@ include "includes/header.php";
     <div class="about-text">
       <h2>About <span>Our Hospital</span></h2>
       <p>
-        Shaheed Foundation Hospital is a renowned medical facility providing top-quality healthcare
+        Al Shaheed Hospital Hospital is a renowned medical facility providing top-quality healthcare
         and advanced treatment options. We focus on compassionate care, modern technology, and
         community wellbeing — all within a safe and comfortable environment.
       </p>
@@ -22,7 +22,7 @@ include "includes/header.php";
       </p>
     </div>
     <div class="about-image">
-      <img src="assets/images/hospital-image.jpeg" alt="Shaheed Foundation Hospital" />
+      <img src="assets/images/hospital-image.jpeg" alt="Al Shaheed Hospital Hospital" />
     </div>
   </div>
 </section>
