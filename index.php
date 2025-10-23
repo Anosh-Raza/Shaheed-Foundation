@@ -37,36 +37,6 @@ include "includes/header.php";
     <div class="slider-dots"></div>
 </section>
 
-<!-- Youtube Video Section -->
-<section class="yt-video-section">
-  <div class="yt-container">
-    <div class="yt-video-content">
-      <div class="yt-video-text">
-        <h2>Our Journey to Healing Lives</h2>
-        <p>
-          At Al Shaheed Hospital , we are dedicated to providing compassionate healthcare with modern
-          technology and a human touch.
-          Watch our story to learn more about our mission and the people who make it possible.
-        </p>
-      </div>
-
-      <div class="yt-video-frame">
-        <div class="yt-video-wrapper">
-          <iframe
-            src="https://www.youtube.com/embed/LyJUfSZLNtA?autoplay=1&mute=1&loop=1&playlist=LyJUfSZLNtA&controls=1&modestbranding=1&rel=0"
-            title="Al Shaheed Hospital  Video"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Youtube Video Section End-->
 
 <!-- Info Section -->
 <section class="info-section">
@@ -83,6 +53,7 @@ include "includes/header.php";
 </section>
 <!-- Info Section End-->
 
+<!-- Gallery & Content Section -->
 <section class="gallery-content-section">
     <div class="gallery-content-container container">
 
@@ -110,8 +81,55 @@ include "includes/header.php";
 
     </div>
 </section>
+<!-- Gallery & Content Section End-->
 
+<!-- Spedicalities Section -->
+<section class="specialties-section">
+    <div class="container">
+        <h2 class="section-title">Our Specialties</h2>
 
+        <div class="specialties-grid">
+            <div class="specialty-box">
+                <a href="services/pediatrician.php">
+                    <img src="assets/images/Pediatrician.png" alt="Pediatrician">
+                    <p>Pediatrician</p>
+                </a>
+            </div>
+
+            <div class="specialty-box">
+                <a href="services/orthopedic.php">
+                    <img src="assets/images/orthopedic.png" alt="General Surgery">
+                    <p>Orthopedic</p>
+                </a>
+            </div>
+            <div class="specialty-box">
+                <a href="services/opd.php">
+                    <img src="assets/images/OPD.png" alt="ENT">
+                    <p>OPD</p>
+                </a>
+            </div>
+            <div class="specialty-box">
+                <a href="services/general-opd.php">
+                    <img src="assets/images/general_opd.png" alt="Nephrology">
+                    <p>General OPD</p>
+                </a>
+            </div>
+            <div class="specialty-box">
+                <a href="services/ent.php">
+                    <img src="assets/images/ent.png" alt="Dentistry">
+                    <p>END</p>
+                </a>
+            </div>
+            <div class="specialty-box">
+                <a href="services/endocrinologist.php">
+                    <img src="assets/images/endocrinologist.png" alt="Internal Medicine">
+                    <p>Endocrinologist</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Specialities Section End-->
 
 <!-- Youtube Section -->
 <section class="talk-health">
@@ -178,54 +196,35 @@ document.querySelectorAll('.video-item').forEach(item => {
 
 
 
-<!-- Spedicalities Section -->
-<section class="specialties-section">
-    <div class="container">
-        <h2 class="section-title">Our Specialties</h2>
+<!-- Youtube Video Section -->
+<section class="yt-video-section">
+  <div class="yt-container">
+    <div class="yt-video-content">
+      <div class="yt-video-text">
+        <h2>Our Journey to Healing Lives</h2>
+        <p>
+          At Al Shaheed Hospital , we are dedicated to providing compassionate healthcare with modern
+          technology and a human touch.
+          Watch our story to learn more about our mission and the people who make it possible.
+        </p>
+      </div>
 
-        <div class="specialties-grid">
-            <div class="specialty-box">
-                <a href="services/pediatrician.php">
-                    <img src="assets/images/Pediatrician.png" alt="Pediatrician">
-                    <p>Pediatrician</p>
-                </a>
-            </div>
-
-            <div class="specialty-box">
-                <a href="services/orthopedic.php">
-                    <img src="assets/images/orthopedic.png" alt="General Surgery">
-                    <p>Orthopedic</p>
-                </a>
-            </div>
-            <div class="specialty-box">
-                <a href="services/opd.php">
-                    <img src="assets/images/OPD.png" alt="ENT">
-                    <p>OPD</p>
-                </a>
-            </div>
-            <div class="specialty-box">
-                <a href="services/general-opd.php">
-                    <img src="assets/images/general_opd.png" alt="Nephrology">
-                    <p>General OPD</p>
-                </a>
-            </div>
-            <div class="specialty-box">
-                <a href="services/ent.php">
-                    <img src="assets/images/ent.png" alt="Dentistry">
-                    <p>END</p>
-                </a>
-            </div>
-            <div class="specialty-box">
-                <a href="services/endocrinologist.php">
-                    <img src="assets/images/endocrinologist.png" alt="Internal Medicine">
-                    <p>Endocrinologist</p>
-                </a>
-            </div>
+      <div class="yt-video-frame">
+        <div class="yt-video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/LyJUfSZLNtA?autoplay=1&mute=1&loop=1&playlist=LyJUfSZLNtA&controls=1&modestbranding=1&rel=0"
+            title="Al Shaheed Hospital  Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-
-<!-- Specialities Section End-->
+<!-- Youtube Video Section End-->
 
 
 <!-- News Section -->

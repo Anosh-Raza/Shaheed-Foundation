@@ -231,7 +231,6 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
   background-color: var(--white-color);
   color: var(--secondary-color);
   font-family: var(--font-family);
-  border-top: 6px solid var(--primary-color);
   border-bottom: 6px solid var(--primary-color);
 }
 
@@ -288,6 +287,9 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
   .info-section .section-text {
     font-size: 0.9rem;
   }
+  .info-section {
+  border-bottom: 2px solid var(--primary-color);
+}
 }
 
 /* Talk Health Section */
@@ -357,7 +359,7 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(255 0 0 / 41%);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -372,13 +374,13 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
 
 .youtube-button {
     padding: 0.5em;
-    background-color: transparent;
+    background-color: var(--primary-color);
     border-radius: 5px;
-    border: 1px solid white;
+    border: 2px solid white;
     display: flex;
     align-items: center;
     column-gap: 6px;
-    box-shadow: 5px 5px 1px 0 #f3f6fa;
+    box-shadow: 4px 4px 1px 0 #f3f6fa;
     transition: box-shadow 0.3s ease;
 }
 
@@ -433,7 +435,7 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
 
 /* Specialties Section */
 .specialties-section {
-  background-color: var(--white-color);
+  background-color: var(--white);
   text-align: center;
   padding: 80px 20px;
   font-family: var(--font-family);
@@ -456,7 +458,6 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
 .specialty-box {
   padding: 30px 10px;
   transition: all 0.3s ease;
-  background: #fff;
   cursor: default;
   display: flex;
   flex-direction: column;
@@ -1673,6 +1674,7 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 6px solid var(--primary-color);
 }
 
 .gallery-content-section .section-heading {
@@ -1805,7 +1807,8 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
 /* --- Responsive Design --- */
 @media (max-width: 992px) {
   .gallery-content-section {
-    border-top: 2px solid var(--primary-color);
+    border-top: 0 solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
     padding: 6em 5%;
   }
   .gallery-content-container {
@@ -2110,6 +2113,9 @@ a:not(.btn-donate):not(.btn-hero):not(.read-more):not(.btn-subscribe) {
 }
 
 @media (max-width: 600px) {
+  .yt-video-content{
+    display: block;
+  }
   .yt-video-section {
     padding: 50px 15px;
   }
