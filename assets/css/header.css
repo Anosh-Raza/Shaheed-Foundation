@@ -46,13 +46,13 @@
 
 .header-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr auto;
+  grid-template-columns: 1fr 2fr auto;
   align-items: center;
   padding: 12px 20px;
 }
 
 .logo img {
-  max-height: 80px;
+  max-height: 100px;
 }
 
 /* ===========================
@@ -61,7 +61,7 @@
 .main-nav ul {
   list-style: none;
   display: flex;
-  gap: 24px;
+  column-gap: 14px;
   margin: 0;
   padding: 0;
 }

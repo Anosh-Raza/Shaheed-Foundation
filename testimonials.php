@@ -12,7 +12,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide testimonial-card">
                     <div class="testimonial-content">
-                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Client 1" class="client-img">
+                        <img src="https://static.vecteezy.com/ti/gratis-vector/p1/28711708-dames-hijab-icoon-vrouw-saudi-arabier-islam-dame-mooi-moslim-meisje-avatar-hoofd-sjaal-oostelijk-vrouwen-kleding-logo-solide-stijl-pictogram-illustratie-ontwerp-aan-wit-achtergrond-eps-10-vector.jpg" alt="Client 1" class="client-img">
                         <p class="testimonial-text">
                             “Al Shaheed Hospital  gave me a new life. The doctors were kind, and the staff made
                             sure I was comfortable throughout my treatment. I truly felt cared for.”
@@ -24,7 +24,7 @@
 
                 <div class="swiper-slide testimonial-card">
                     <div class="testimonial-content">
-                        <img src="https://randomuser.me/api/portraits/men/37.jpg" alt="Client 2" class="client-img">
+                        <img src="https://www.pngkey.com/png/full/73-730477_first-name-profile-image-placeholder-png.png" alt="Client 2" class="client-img">
                         <p class="testimonial-text">
                             “I was impressed with how efficiently the hospital handled my emergency. The doctors were
                             calm and experienced, and the facilities were spotless.”
@@ -36,7 +36,7 @@
 
                 <div class="swiper-slide testimonial-card">
                     <div class="testimonial-content">
-                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Client 3" class="client-img">
+                        <img src="https://static.vecteezy.com/ti/gratis-vector/p1/28711708-dames-hijab-icoon-vrouw-saudi-arabier-islam-dame-mooi-moslim-meisje-avatar-hoofd-sjaal-oostelijk-vrouwen-kleding-logo-solide-stijl-pictogram-illustratie-ontwerp-aan-wit-achtergrond-eps-10-vector.jpg" alt="Client 3" class="client-img">
                         <p class="testimonial-text">
                             “From diagnosis to recovery, everything was handled with great professionalism. The nurses
                             were incredibly supportive, especially during my post-surgery care.”
@@ -48,7 +48,7 @@
 
                 <div class="swiper-slide testimonial-card">
                     <div class="testimonial-content">
-                        <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Client 4" class="client-img">
+                        <img src="https://www.pngkey.com/png/full/73-730477_first-name-profile-image-placeholder-png.png" alt="Client 4" class="client-img">
                         <p class="testimonial-text">
                             “The hospital’s gastroenterology department helped me recover from a chronic issue that had
                             troubled me for years. I’m thankful for their expert care and compassion.”
@@ -60,7 +60,7 @@
 
                 <div class="swiper-slide testimonial-card">
                     <div class="testimonial-content">
-                        <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Client 5" class="client-img">
+                        <img src="https://static.vecteezy.com/ti/gratis-vector/p1/28711708-dames-hijab-icoon-vrouw-saudi-arabier-islam-dame-mooi-moslim-meisje-avatar-hoofd-sjaal-oostelijk-vrouwen-kleding-logo-solide-stijl-pictogram-illustratie-ontwerp-aan-wit-achtergrond-eps-10-vector.jpg" alt="Client 5" class="client-img">
                         <p class="testimonial-text">
                             “The maternity ward was amazing. The doctors guided me through every step, and the staff
                             treated me like family. It was a wonderful experience.”

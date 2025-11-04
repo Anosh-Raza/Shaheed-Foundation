@@ -31,7 +31,7 @@
 
 <body>
   <!-- Announcement Bar -->
-  <div class="announcement-bar">
+  <div class="announcement-bar" style="display: none;">
     <div class="container announcement-container">
       <div class="announcement-slider">
         <div class="slider-track">
@@ -70,24 +70,20 @@
       <nav class="main-nav">
         <ul>
           <li><a href="<?= $base_url; ?>/index.php">Home</a></li>
-          <li class="has-dropdown">
-            <a href="<?= $base_url; ?>/about.php">About <i class="fa-solid fa-angle-down"></i></a>
-            <ul class="dropdown">
-              <li><a href="<?= $base_url; ?>/consultants.php">Consultants</a></li>
-            </ul>
-          </li>
-          <li class="has-dropdown">
+          <li><a href="<?= $base_url; ?>/about.php">About</a></li>
+            <li class="has-dropdown">
             <a href="<?= $base_url; ?>/services.php">Services <i class="fa-solid fa-angle-down"></i></a>
             <ul class="dropdown">
               <li><a href="<?= $base_url; ?>/services/pediatrician.php">Pediatrician</a></li>
-              <li><a href="<?= $base_url; ?>/services/orthopedic.php">Orthopedic</a></li>
+              <!-- <li><a href="<?= $base_url; ?>/services/orthopedic.php">Orthopedic</a></li>
               <li><a href="<?= $base_url; ?>/services/opd.php">OPD</a></li>
               <li><a href="<?= $base_url; ?>/services/general-opd.php">General OPD</a></li>
               <li><a href="<?= $base_url; ?>/services/ent.php">ENT</a></li>
-              <li><a href="<?= $base_url; ?>/services/endocrinologist.php">Endocrinologist</a></li>
+              <li><a href="<?= $base_url; ?>/services/endocrinologist.php">Endocrinologist</a></li> -->
             </ul>
           </li>
-          <li><a href="<?= $base_url; ?>/blog/blog.php">Blog</a></li>
+          <li><a href="<?= $base_url; ?>/consultants.php">Consultants</a></li>
+          <li><a href="<?= $base_url; ?>/careers.php">Careers</a></li>
           <li><a href="<?= $base_url; ?>/contact.php">Contact</a></li>
         </ul>
       </nav>
@@ -114,12 +110,12 @@
 
       <ul>
         <li><a href="<?= $base_url; ?>/index.php">Home</a></li>
-        <li class="mobile-dropdown">
-          <a href="#" class="mobile-dropdown-toggle">Services <i class="fa-solid fa-chevron-right"></i></a>
-        </li>
-        <li><a href="<?= $base_url; ?>/blog/index.php">Blog</a></li>
         <li><a href="<?= $base_url; ?>/about.php">About</a></li>
+        <li class="mobile-dropdown">
+          <a href="#" class="mobile-dropdown-toggle">Services <i style="height: 0.6em" class="fa-solid fa-chevron-right"></i></a>
+        </li>
         <li><a href="<?= $base_url; ?>/consultants.php">Consultants</a></li>
+        <li><a href="<?= $base_url; ?>/careers.php">Careers</a></li>
         <li><a href="<?= $base_url; ?>/contact.php">Contact</a></li>
         <li><a href="<?= $base_url; ?>/donate.php" class="btn-donate">Donate</a></li>
       </ul>

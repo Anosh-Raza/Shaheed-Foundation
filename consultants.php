@@ -18,11 +18,13 @@ include "includes/header.php";
 
             <!-- DR MURTUZA KAZMI -->
             <div class="consultant-card">
+                <a href="consultants/consultant-single.php" target="_blank">
                 <h3>Dr. Murtuza Kazmi</h3>
                 <p class="specialty">Family Physician (M.B.B.S)</p>
                 <p><strong>Days:</strong> Monday to Saturday</p>
                 <p><strong>Timing:</strong> 5:00 PM to 10:00 PM</p>
                 <p><strong>Location:</strong> Al-Shaheed Polyclinic</p>
+                </a>
             </div>
 
             <!-- DR MARYAM ALI -->
