@@ -15,7 +15,7 @@
         ? "http://" . $_SERVER['HTTP_HOST'] . "/shaheed" 
         : "https://" . $_SERVER['HTTP_HOST'];
 
-    $logo_path = $base_url . "/assets/images/shaheed-hospital-logo.png";
+    $logo_path = $base_url . "/assets/images/al-shaheed-hospital-logo.png";
   ?>
 
   <!-- Stylesheets -->
@@ -72,14 +72,20 @@
           <li><a href="<?= $base_url; ?>/index.php">Home</a></li>
           <li><a href="<?= $base_url; ?>/about.php">About</a></li>
             <li class="has-dropdown">
-            <a href="<?= $base_url; ?>/services.php">Services <i class="fa-solid fa-angle-down"></i></a>
+            <!-- <a href="<?= $base_url; ?>/services.php">Services <i class="fa-solid fa-angle-down"></i></a> -->
+            <a href="#">Services <i class="fa-solid fa-angle-down"></i></a>
             <ul class="dropdown">
-              <li><a href="<?= $base_url; ?>/services/pediatrician.php">Pediatrician</a></li>
-              <!-- <li><a href="<?= $base_url; ?>/services/orthopedic.php">Orthopedic</a></li>
-              <li><a href="<?= $base_url; ?>/services/opd.php">OPD</a></li>
-              <li><a href="<?= $base_url; ?>/services/general-opd.php">General OPD</a></li>
-              <li><a href="<?= $base_url; ?>/services/ent.php">ENT</a></li>
-              <li><a href="<?= $base_url; ?>/services/endocrinologist.php">Endocrinologist</a></li> -->
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Free General OPD</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Free Medicine Supply</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Pediatrics (Children Treatment)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Endocrinology (Diabetic Treatment)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Orthopedic (Bones and Joints)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Ear, Nose and Throat (ENT)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">General Medicine</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Ophthalmology (Eye Treatment)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Dental Treatment</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Physiotherapy</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Diabetic ( Sugar Treatment )</a></li>
             </ul>
           </li>
           <li><a href="<?= $base_url; ?>/consultants.php">Consultants</a></li>
@@ -129,12 +135,17 @@
       <h3>Our Services</h3>
     </div>
     <ul class="submenu-list">
-      <li><a href="<?= $base_url; ?>/services/pediatrician.php">Pediatrician</a></li>
-      <li><a href="<?= $base_url; ?>/services/orthopedic.php">Orthopedic</a></li>
-      <li><a href="<?= $base_url; ?>/services/opd.php">OPD</a></li>
-      <li><a href="<?= $base_url; ?>/services/general-opd.php">General OPD</a></li>
-      <li><a href="<?= $base_url; ?>/services/ent.php">ENT</a></li>
-      <li><a href="<?= $base_url; ?>/services/endocrinologist.php">Endocrinologist</a></li>
+       <li><a href="<?= $base_url; ?>/services/pediatrics.php">Free General OPD</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Free Medicine Supply</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Pediatrics (Children Treatment)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Endocrinology (Diabetic Treatment)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Orthopedic (Bones and Joints)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Ear, Nose and Throat (ENT)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">General Medicine</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Ophthalmology (Eye Treatment)</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Dental Treatment</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Physiotherapy</a></li>
+              <li><a href="<?= $base_url; ?>/services/pediatrics.php">Diabetic ( Sugar Treatment )</a></li>
     </ul>
   </div>
   <div class="drawer-overlay" id="drawerOverlay"></div>

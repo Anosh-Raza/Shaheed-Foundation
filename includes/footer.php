@@ -25,10 +25,11 @@
                       Gulberg Town, Karachi
                   </p>
                   <p>Phone:<br>
+                      <a class="footer-contact" href="tel:+02136362020">021 36362020</a><br>
                       <a class="footer-contact" href="tel:+923332180641">+92 333 2180641</a>
                   </p>
                   <p>Email:<br>
-                      <a class="footer-contact" href="mailto:info@shaheedfoundation.org">info@shaheedfoundation.org</a>
+                      <a class="footer-contact" href="mailto:info@alshaheedhospital.com">info@alshaheedhospital.com</a>
                   </p>
               </div>
 

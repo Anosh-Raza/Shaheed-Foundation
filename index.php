@@ -8,7 +8,7 @@ include "includes/header.php";
     <div class="hero-slider">
 
         <div class="slide active">
-            <img src="assets/images/cover_new.jpg" alt="Hospital Front View">
+            <img src="assets/images/banner2.jpeg" alt="Hospital Front View">
             <div class="slide-content">
                 <h1>Welcome to Al Shaheed Hospital </h1>
                 <p>Providing affordable healthcare with compassion and dignity.</p>
@@ -17,7 +17,17 @@ include "includes/header.php";
         </div>
 
         <div class="slide">
-            <img src="assets/images/banner2.jpeg" alt="Doctors Team">
+            <img src="assets/images/banner3.jpeg" alt="Doctors Team">
+            <div class="slide-content">
+                <h1>Modern Facilities</h1>
+                <p>Advanced equipment and quality patient care for every need.</p>
+                <a href="contact.php" class="btn-hero">Contact Us</a>
+
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="assets/images/banner4.jpeg" alt="Doctors Team">
             <div class="slide-content">
                 <h1>Our Expert Medical Team</h1>
                 <p>Dedicated doctors and specialists serving the community.</p>

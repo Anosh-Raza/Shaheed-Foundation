@@ -6,7 +6,7 @@ include "includes/header.php";
 <!-- HERO SECTION -->
 <section class="consultants-hero">
     <div class="container">
-        <h1>Our Consultants</h1>
+        <h1>Doctors & Consultants</h1>
         <p>Meet our highly qualified and experienced medical consultants serving at Al Shaheed Hospital.</p>
     </div>
 </section>
@@ -19,8 +19,8 @@ include "includes/header.php";
             <!-- DR MURTUZA KAZMI -->
             <div class="consultant-card">
                 <a href="consultants/consultant-single.php" target="_blank">
-                <h3>Dr. Murtuza Kazmi</h3>
-                <p class="specialty">Family Physician (M.B.B.S)</p>
+                <h3>Dr. Jah Mirza Mohsin</h3>
+                <p class="specialty">Family Physician (MBBS)</p>
                 <p><strong>Days:</strong> Monday to Saturday</p>
                 <p><strong>Timing:</strong> 5:00 PM to 10:00 PM</p>
                 <p><strong>Location:</strong> Al-Shaheed Polyclinic</p>
@@ -29,8 +29,8 @@ include "includes/header.php";
 
             <!-- DR MARYAM ALI -->
             <div class="consultant-card">
-                <h3>Dr. Maryam Ali</h3>
-                <p class="specialty">Family Physician (M.B.B.S)</p>
+                <h3>Dr. Kashif Abbas</h3>
+                <p class="specialty">Family Physician (MBBS)</p>
                 <p><strong>Days:</strong> Monday to Friday</p>
                 <p><strong>Timing:</strong> 5:00 PM to 8:00 PM</p>
                 <p><strong>Location:</strong> Al-Shaheed Polyclinic</p>
@@ -39,30 +39,30 @@ include "includes/header.php";
             <!-- DR ZUBAIR AHMAD HASHMI -->
             <div class="consultant-card">
                 <h3>Dr. Zubair Ahmad Hashmi</h3>
-                <p class="specialty">ENT Specialist (M.B.B.S, D.L.O)</p>
+                <p class="specialty">ENT Specialist (MBBS, D.L.O)</p>
                 <p><strong>Days:</strong> Wednesday & Friday</p>
                 <p><strong>Timing:</strong> 6:00 PM to 8:00 PM</p>
             </div>
 
             <!-- DR JAH MIRZA MOHSIN -->
             <div class="consultant-card">
-                <h3>Dr. Jah Mirza Mohsin</h3>
-                <p class="specialty">Orthopaedic Surgeon (M.B.B.S, FCPS, FRCS)</p>
+                <h3>Dr. Saima Askari</h3>
+                <p class="specialty">Orthopaedic Surgeon (MBBS, FCPS, FRCS)</p>
                 <p><strong>Days:</strong> Tuesday & Friday</p>
                 <p><strong>Timing:</strong> 5:00 PM to 6:00 PM</p>
             </div>
 
             <!-- DR KASHIF ABBAS -->
             <div class="consultant-card">
-                <h3>Dr. Kashif Abbas</h3>
-                <p class="specialty">Paediatric Consultant (M.B.B.S, FCPS - Paediatric Medicine)</p>
+                <h3>Dr. Zia Abbas</h3>
+                <p class="specialty">Paediatric Consultant (MBBS, FCPS - Paediatric Medicine)</p>
                 <p><strong>Days:</strong> Tuesday, Thursday & Saturday</p>
                 <p><strong>Timing:</strong> 5:30 PM to 6:30 PM</p>
             </div>
 
             <!-- DR BAREEN KAMRAN -->
             <div class="consultant-card">
-                <h3>Dr. Bareen Kamran</h3>
+                <h3>Dr. Muhammad Ali</h3>
                 <p class="specialty">Consultant Physiotherapist (MSPT - LNH, BSPT, DPT - JPMC)</p>
                 <p><strong>Days:</strong> Monday to Saturday</p>
                 <p><strong>Timing:</strong> 5:00 PM to 7:00 PM</p>
@@ -70,7 +70,28 @@ include "includes/header.php";
 
             <!-- DR SAIMA ASKARI -->
             <div class="consultant-card">
-                <h3>Dr. Saima Askari</h3>
+                <h3>Dr. Tahira XXX</h3>
+                <p class="specialty">Consultant Endocrinologist (FCPS Medicine, FCPS Endo)</p>
+                <p><strong>Day:</strong> Thursday</p>
+                <p><strong>Timing:</strong> 5:00 PM to 6:00 PM</p>
+            </div>
+
+            <div class="consultant-card">
+                <h3>Dr. Ashar Rajani5. Dr. Bareen Kamran</h3>
+                <p class="specialty">Consultant Endocrinologist (FCPS Medicine, FCPS Endo)</p>
+                <p><strong>Day:</strong> Thursday</p>
+                <p><strong>Timing:</strong> 5:00 PM to 6:00 PM</p>
+            </div>
+
+            <div class="consultant-card">
+                <h3>Dr. Murtuza Kazmi</h3>
+                <p class="specialty">Consultant Endocrinologist (FCPS Medicine, FCPS Endo)</p>
+                <p><strong>Day:</strong> Thursday</p>
+                <p><strong>Timing:</strong> 5:00 PM to 6:00 PM</p>
+            </div>
+            
+            <div class="consultant-card">
+                <h3>Dr. Mariam Ali</h3>
                 <p class="specialty">Consultant Endocrinologist (FCPS Medicine, FCPS Endo)</p>
                 <p><strong>Day:</strong> Thursday</p>
                 <p><strong>Timing:</strong> 5:00 PM to 6:00 PM</p>
@@ -132,7 +153,7 @@ include "includes/header.php";
 .consultant-card:hover {
     border-bottom: 5px solid var(--primary-color);
     border-top: none;
-    transition: transform 1000ms ease;
+    transition: 1s ease;
 }
 
 .consultant-card h3 {

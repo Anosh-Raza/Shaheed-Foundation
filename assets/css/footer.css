@@ -86,10 +86,16 @@
 }
 
 .footer-contact {
-        font-size: 1.3em !important;
+    font-size: 1.3em !important;
     line-height: 1.3 !important;
     color: var(--white);
     font-weight: bold;
+}
+
+@media (max-width: 450px) {
+  .footer-contact {
+    font-size: 1.1em !important;
+  }
 }
 
 .footer-col a:hover {

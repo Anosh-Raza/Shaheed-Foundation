@@ -51,8 +51,48 @@
   padding: 12px 20px;
 }
 
+.logo {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .logo img {
+   display: block;
+  width: 179px;
+  height: auto;
+  position: relative;
   max-height: 100px;
+}
+
+/* Shimmer overlay */
+.logo::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  right: -100%;
+  width: 100%;
+  height: 20%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(15deg);
+  animation: silver-shine 2s linear infinite;
+}
+
+/* Animation path — bottom-right to top-left */
+@keyframes silver-shine {
+  0% {
+    top: 100%;
+    right: 100%;
+  }
+  100% {
+    top: -100%;
+    right: -100%;
+  }
 }
 
 /* ===========================
@@ -92,7 +132,7 @@
   position: absolute;
   top: 120%;
   left: 0;
-  min-width: 220px;
+  min-width: 260px;
   background: var(--white);
   border-radius: 8px;
   border: 1px solid var(--primary-color);
@@ -104,6 +144,10 @@
   transition: opacity 0.2s ease, transform 0.2s ease;
   pointer-events: none;
   z-index: 999;
+}
+
+li.has-dropdown ul li a {
+    font-size: 13px;
 }
 
 /* Carrot Arrow */
@@ -316,5 +360,6 @@
 @media (max-width: 500px) {
   .logo img {
     max-height: 60px;
+    width: 100px;
   }
 }

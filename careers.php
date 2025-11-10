@@ -78,7 +78,7 @@ include "includes/header.php";
   <div class="container">
     <h2>Didn’t Find a Suitable Role?</h2>
     <p>We’re always looking for talented individuals. Send us your CV and we’ll reach out when a suitable opportunity opens up.</p>
-    <a href="mailto:careers@shaheedfoundationhospital.org" class="btn-apply">Send Your Resume</a>
+    <a href="apply-now.php" class="btn-apply">Send Your Resume</a>
   </div>
 </section>
 
