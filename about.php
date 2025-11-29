@@ -15,8 +15,7 @@ include "includes/header.php";
                 Al Shaheed Hospital Hospital is a renowned medical facility providing top-quality healthcare
                 and advanced treatment options. We focus on compassionate care, modern technology, and
                 community wellbeing — all within a safe and comfortable environment.
-            </p>
-            <p>
+                <br>
                 Our mission is to deliver expert medical services through a skilled team of professionals,
                 ensuring every patient receives personalized and efficient care.
             </p>
@@ -73,11 +72,7 @@ include "includes/header.php";
 
 <section class="donation-section">
   <div class="donation-container container">
-    
-    <!-- Left: Image -->
-    <div class="donation-image">
-      <img src="assets/images/shaheed-hospital-logo.png" alt="Al Shaheed Hospital Logo" loading="lazy" />
-    </div>
+
 
     <!-- Right: Donation Info -->
     <div class="donation-text">
@@ -85,13 +80,15 @@ include "includes/header.php";
 
       <div class="donate-methods">
         <div class="donate-card">
-          <i class="fa-solid fa-university"></i>
           <h3>Bank Transfer</h3>
           <p><strong>Bank:</strong> Bank Al Habib Limited</p>
           <p><strong>Account Title:</strong> SHAHEED FOUNDATION PAKISTAN</p>
           <p><strong>Branch Code:</strong> 1016</p>
           <p><strong>Account #:</strong> 1016-0081-003466-01-0</p>
           <p><strong>IBAN:</strong> PK72 BAHL 1016 0081 0034 6601</p>
+          <p style="margin-top: 7px; text-transform: uppercase;">
+            After making your online donation, kindly notify us on WhatsApp at <strong>0344-7424333</strong>.
+        </p>
         </div>
       </div>
 
@@ -101,9 +98,7 @@ include "includes/header.php";
           You can also visit the <strong>Shaheed Foundation Pakistan Office</strong> or 
           <strong>Al Shaheed Hospital</strong> to submit your donations in person and receive an official receipt.
         </p>
-        <p class="whatsapp-note">
-          After making your online donation, kindly notify us on WhatsApp at <strong>0344-7424333</strong>.
-        </p>
+        
       </div>
     </div>
   </div>

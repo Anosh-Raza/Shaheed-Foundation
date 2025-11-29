@@ -1,0 +1,88 @@
+<?php
+$services = [
+    "free-general-opd" => [
+        "title" => "Free General OPD",
+        "slug" => "free-general-opd",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "free-medicine-supply" => [
+        "title" => "Free Medicine Supply",
+        "slug" => "free-medicine-supply",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "pediatrics-children-treatment" => [
+        "title" => "Pediatrics (Children Treatment)",
+        "slug" => "pediatrics-children-treatment",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "endocrinology-diabetic-treatment" => [
+        "title" => "Endocrinology (Diabetic Treatment)",
+        "slug" => "endocrinology-diabetic-treatment",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "orthopedic" => [
+        "title" => "Orthopedic",
+        "slug" => "orthopedics",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "ent" => [
+        "title" => "Ear, Nose and Throat (ENT)",
+        "slug" => "ent",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "general-medicine" => [
+        "title" => "General Medicine",
+        "slug" => "general-medicine",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "general-medicine" => [
+        "title" => "General Medicine",
+        "slug" => "general-medicine",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "ophthalmology" => [
+        "title" => "Ophthalmology (Eye Treatment)",
+        "slug" => "ophthalmology",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "dental" => [
+        "title" => "Dental Treatment",
+        "slug" => "dental-treatment",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "physiotherapy" => [
+        "title" => "Physiotherapy",
+        "slug" => "physiotherapy",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+    "diabetic" => [
+        "title" => "Diabetic ( Sugar Treatment )",
+        "slug" => "diabetic",
+        "short_desc" => "Ear, nose & throat treatments.",
+        "long_desc" => "Our ENT department treats sinus, throat infections and more...",
+        "image" => "assets/images/ent.png",
+    ],
+];
+?>

@@ -18,7 +18,7 @@
                             sure I was comfortable throughout my treatment. I truly felt cared for.”
                         </p>
                         <h4 class="client-name">Nadia Ahmed</h4>
-                        <span class="client-company">Teacher, Karachi Grammar School</span>
+                        <span class="client-company">Government Teacher</span>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                             calm and experienced, and the facilities were spotless.”
                         </p>
                         <h4 class="client-name">Imran Qureshi</h4>
-                        <span class="client-company">Civil Engineer, PakBuild Co.</span>
+                        <span class="client-company">Business Owner</span>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@
                             were incredibly supportive, especially during my post-surgery care.”
                         </p>
                         <h4 class="client-name">Dr. Hina Malik</h4>
-                        <span class="client-company">Assistant Professor, JPMC</span>
+                        <span class="client-company">Assistant Professor</span>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@
                             troubled me for years. I’m thankful for their expert care and compassion.”
                         </p>
                         <h4 class="client-name">Shoaib Khan</h4>
-                        <span class="client-company">Business Owner, Karachi</span>
+                        <span class="client-company">Shop Keeper</span>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@
                             treated me like family. It was a wonderful experience.”
                         </p>
                         <h4 class="client-name">Ayesha Noor</h4>
-                        <span class="client-company">New Mother & NGO Worker</span>
+                        <span class="client-company">NGO Worker</span>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /shaheed/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# For Consultant Pages
+RewriteRule ^consultant/([a-zA-Z0-9\-]+)$ consultant.php?slug=$1 [L,QSA]
+
+# For Services:
+# Example: /shaheed/service/cardiology → /shaheed/services/cardiology.php
+RewriteRule ^service/([a-zA-Z0-9\-]+)$ services/$1.php [L,QSA]

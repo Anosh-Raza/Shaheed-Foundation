@@ -119,6 +119,12 @@
   font-weight: 500;
 }
 
+@media (min-width: 900px) {
+  .main-nav ul li a {
+    font-size: 1.1rem;
+  }
+}
+
 .main-nav ul li a:hover {
   color: var(--primary-color);
   border-bottom: 2px solid var(--primary-color);

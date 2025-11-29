@@ -19,7 +19,8 @@ include "includes/header.php";
           <li><i class="fa-solid fa-phone"></i> <a href="tel:+02136362020">021 36362020</a></li>
           <li><i class="fa-solid fa-phone"></i> <a href="tel:+923332180641">+92 333 2180641</a></li>
           <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@alshaheedhospital.com">info@alshaheedhospital.com</a></li>
-          <li><i class="fa-solid fa-location-dot"></i>  ST-1/C, Block 6, F.B Area,<br>Shahra e Pakistan, Karachi, Pakistan</li>
+          <li><i class="fa-solid fa-location-dot"></i>  Plot ST-1C, F.B Area Block 6,<br>
+                      Gulberg Town, Karachi</li>
         </ul>
       </div>
 

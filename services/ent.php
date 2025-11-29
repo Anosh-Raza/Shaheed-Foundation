@@ -8,10 +8,10 @@ include(__DIR__ . '/../includes/header.php');
 
 <!-- Service Page: ENT -->
 <section class="service-hero">
-  <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=400&fit=crop" alt="ENT" class="hero-bg">
+  <img src="../assets/images/service/ent.jpg" alt="ENT" class="hero-bg">
   <div class="hero-overlay">
     <h1>ENT</h1>
-    <p>Comprehensive care for digestive health and wellness.</p>
+    <p>Comprehensive care for ear, nose, and throat health.</p>
   </div>
 </section>
 
@@ -25,26 +25,26 @@ include(__DIR__ . '/../includes/header.php');
       <div class="service-text">
         <h2>ENT</h2>
         <p>
-          With experienced physicians and leading-edge diagnostic technology, we have helped numerous patients in our community overcome digestive problems and lead healthier lives.
-          Shaheed Memorial Hospital offers a state-of-the-art endoscopy suite dedicated to providing quality and optimal patient care.
+          Our ENT Department specializes in the diagnosis and treatment of ear, nose, and throat disorders.  
+          At Shaheed Memorial Hospital, we combine advanced technology with experienced care to ensure optimal outcomes for all patients.
         </p>
         <p>We offer a comprehensive range of treatments for:</p>
 
         <ul>
-          <li>Digestive tract bleeding</li>
-          <li>Inflammatory bowel disease</li>
-          <li>Irritable bowel syndrome</li>
-          <li>Celiac disease</li>
-          <li>Viral Hepatitis (Hepatitis B & C)</li>
-          <li>Acute and chronic malabsorption</li>
-          <li>Colitis</li>
-          <li>Colon polyps</li>
-          <li>Gallstone</li>
+          <li>Hearing Loss & Ear Infections</li>
+          <li>Tonsillitis & Adenoid Problems</li>
+          <li>Sinusitis & Nasal Obstructions</li>
+          <li>Allergic Rhinitis</li>
+          <li>Voice & Speech Disorders</li>
+          <li>Sleep Apnea & Snoring</li>
+          <li>Head & Neck Tumors</li>
+          <li>Dizziness & Balance Disorders</li>
+          <li>Throat Pain & Swallowing Disorders</li>
         </ul>
       </div>
 
       <div class="service-image">
-        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=400&fit=crop" alt="ENT Service">
+        <img src="../assets/images/service/ent.jpg" alt="ENT Service">
       </div>
     </div>
   </div>
